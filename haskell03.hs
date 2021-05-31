@@ -57,3 +57,5 @@ selectSnd y = [x | (_,x) <- y]
 --15
 dotProd :: [Int] -> [Int] -> Int
 dotProd y z = sum[a*x | (a,x) <- zip y z]
+
+--testing replit version control
